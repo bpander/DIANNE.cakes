@@ -1,0 +1,162 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Cakes from Dianne - Custom Cakes for Farmington, Michigan</title>
+<script type="text/javascript" src="js/prototype.js"></script>
+<script type="text/javascript" src="js/scriptaculous.js?load=effects,builder"></script>
+<script type="text/javascript" src="js/lightbox.js"></script>
+<script type="text/javascript" src="jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="jquery-ui-1.8.6.custom.min.js"></script>
+<script type="text/javascript">
+var $j = jQuery.noConflict();
+</script>
+<link rel="stylesheet" href="css/lightbox.css" type="text/css" media="screen" />
+<style type="text/css">
+h2{margin:0 0 0.5em; font-size:16px; font-weight:bold}
+#conash3D0{display:none !important}
+a img{border:none; outline:none}
+body{font:normal 15px Arial, Helvetica, sans-serif}
+.email-link{color:#fff; text-decoration:none}
+.email-link:hover{text-decoration:underline}
+p{margin:0; padding:0; color:#fff}
+#scrollbar{background:#f5accc; cursor:pointer; width:100px; height:15px; position:absolute; top:103px; left:7px}
+.slide-category{position:absolute; top:5px; cursor:pointer}
+#slide-container{height:90px; width:100%; position:relative; overflow:hidden}
+#slide-container div{position:absolute; top:0; left:0; height:90px; width:2500px}
+#slide-container div a img{float:left; padding-right:30px}
+
+.callouts {
+	margin: 50px 0 30px;
+}
+
+.callout {
+	display:block;
+	margin-bottom: 15px;
+	padding:10px;
+	background:#f8bfd8;
+	font-size:14px;
+	font-style:italic;
+	line-height:1.3em;
+	text-decoration:none;
+}
+.callout *{color:#c75486}
+.callout:hover{
+	background:#facde2;
+	box-shadow:		0 1px 3px #b57290;
+	-moz-box-shadow:0 1px 3px #b57290;
+}
+.callout:active{
+	position:relative;
+	top:2px;
+	box-shadow:		0 1px 2px #b57290;
+	-moz-box-shadow:0 1px 2px #b57290;
+}
+</style>
+</head>
+
+<body style="background:#F5ACCC; margin:0; padding:0">
+<div style="height:336px; width:984px; margin:auto; background:url('splash.jpg') no-repeat; overflow:hidden">
+	<div style="width:675px; margin:auto; position:relative">
+		<img src="logo.png" alt="Cakes from Dianne" style="position:absolute; top:5px; left:-30px" />
+		<div style="text-align:right; padding-top:60px">
+			<img src="slogan.png" alt="For a time such as this. ESTHER 4:14" />
+		</div>
+		<div id="container" style="width:661px; height:111px; padding:7px; background:#fff; margin:60px 0 5px; position:relative">
+			<div id="slide-container">
+				<div>
+                	<span class="wedding">
+						<a href="images/w1.jpg" rel="lightbox[gallery]"><img src="w1th.jpg" alt="" /></a>
+						<a href="images/w2.jpg" rel="lightbox[gallery]"><img src="w2th.jpg" alt="" /></a>
+						<a href="images/w3.jpg" rel="lightbox[gallery]"><img src="w3th.jpg" alt="" /></a>
+						<a href="images/w4.jpg" rel="lightbox[gallery]"><img src="w4th.jpg" alt="" /></a>
+                    </span>
+					<span class="birthday">
+						<a href="images/b1.jpg" rel="lightbox[gallery]"><img src="b1th.jpg" alt="" /></a>
+						<a href="images/b2.jpg" rel="lightbox[gallery]"><img src="b2th.jpg" alt="" /></a>
+						<a href="images/b3.jpg" rel="lightbox[gallery]"><img src="b3th.jpg" alt="" /></a>
+						<a href="images/b4.jpg" rel="lightbox[gallery]"><img src="b4th.jpg" alt="" /></a>
+						<a href="images/b5.jpg" rel="lightbox[gallery]"><img src="b5th.jpg" alt="" /></a>
+						<a href="images/b6.jpg" rel="lightbox[gallery]"><img src="b6th.jpg" alt="" /></a>
+					</span>
+					<span class="showers">
+						<a href="images/s1.jpg" rel="lightbox[gallery]"><img src="s1th.jpg" alt="" /></a>
+						<a href="images/s2.jpg" rel="lightbox[gallery]"><img src="s2th.jpg" alt="" /></a>
+						<a href="images/s3.jpg" rel="lightbox[gallery]"><img src="s3th.jpg" alt="" /></a>
+						<a href="images/s4.jpg" rel="lightbox[gallery\"><img src="s4th.jpg" alt="" /></a>
+					</span>
+					<span class="misc">
+						<a href="images/m1.jpg" rel="lightbox[gallery]"><img src="m1th.jpg" alt="" /></a>
+						<a href="images/m4.jpg" rel="lightbox[gallery]"><img src="m4th.jpg" alt="" /></a>
+						<a href="images/m5.jpg" rel="lightbox[gallery]"><img src="m5th.jpg" alt="" /></a>
+					</span>
+				</div>
+			</div>
+			<div id="scrollbar"></div>
+		</div>
+		<div style="width:675px; height:30px; background:url('x.png') repeat; position:relative">
+			<p class="slide-category" style="left:10px" onclick="goto(7)">wedding cakes</p>
+			<p class="slide-category" style="left:198px" onclick="goto(198)">birthday cakes</p>
+			<p class="slide-category" style="left:451px" onclick="goto(451)">shower cakes</p>
+			<p class="slide-category" style="left:568px" onclick="goto(568)">other cakes</p>
+		</div>
+	</div>
+</div>
+<div style="width:675px; margin:auto; padding-top:20px; font-size:28px">
+	<div>
+		<p>Every cake is handcrafted to order.</p>
+		<p>To get started, email <a class="email-link" href="mailto:dmdk530@aol.com">dmdk530@aol.com</a></p>
+    </div>
+	<div class="callouts">
+		<a href="http://www.worldvision.org" target="_blank" class="callout">
+			<img src="/images/world-vision-logo.jpg" alt="World Vision" style="float:left; margin-right:20px" />
+			<div>
+				<h2>For a good cause</h2>
+				<p>Cakes From Dianne donates a portion of all income to World Vision. Learn how World Vision is helping kids all over the world.</p>
+			</div>
+			<div style="clear:both"></div>
+		</a>
+		<a href="http://icingsmiles.org" target="_blank" class="callout">
+			<img src="/images/icing-smiles-logo.jpg" alt="Icing Smiles" style="float:left; margin-right:20px" />
+			<div>
+				<h2>Baking a difference</h2>
+				<p>We're proud to work with Icing Smiles, a nonprofit organization that provides custom cakes to families impacted by the critical illness of a child.</p>
+			</div>
+			<div style="clear:both"></div>
+		</a>
+	</div>
+</div>
+<script type="text/javascript">
+var scroller;
+$j('#scrollbar').draggable({axis: "x", containment: "#container"});
+var isDragging = false;
+$j('*').mouseup(function(){
+	if(isDragging){
+		isDragging = false;
+	}
+});
+$j('#scrollbar').mousedown(function(){
+	scroll_slideshow();
+	isDragging = true;
+});
+function scroll_slideshow(){
+	scroller = setInterval(update_scroll_position, 10);
+}
+function update_scroll_position(){
+	if(isDragging){
+		var left = parseInt($j('#scrollbar').css('left')) - 7;
+		$j('#slide-container div').css('left', -2.6 * left + 'px');
+	}else{
+		clearInterval(scroller);
+	}
+}
+function goto(here){
+	isDragging = true;
+	scroll_slideshow();
+	$j('#scrollbar').stop().animate({'left': here + 'px'}, 700, function(){
+		isDragging = false;
+	});
+}
+</script>
+</body>
+</html>
