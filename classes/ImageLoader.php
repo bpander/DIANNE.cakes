@@ -17,25 +17,28 @@ class ImageLoader
                 }
             }
         }
+        asort($directoryFiles);
         return $directoryFiles;
     }
 
     function renderImageList() {
+        $html = '';
         foreach ($this->categoryOrder as $category) {
-            echo '<ul class="h-list h-list-category js-scroll-category ' . $category . '">';
+            $html .= '<ul class="h-list h-list-category js-scroll-category ' . $category . '">';
             foreach ($this->getDirectoryFiles($this->directory . $category) as $file) {
                 if (!is_dir($this->directory . $category . '/' . $file)) {
                     $filePath = $this->directory . $category . '/' . $file;
                     $thumbPath = $this->directory . $category . '/' . $this->thumbDirectory . $file;
-                    echo '<li>';
-                    echo '<a href="' . $filePath . '" rel="lightbox[gallery]">';
-                    echo '<img src="' . $thumbPath . '" alt="" />';
-                    echo '</a>';
-                    echo '</li>';
+                    $html .= '<li>';
+                    $html .= '<a href="' . $filePath . '" rel="lightbox[gallery]">';
+                    $html .= '<img src="' . $thumbPath . '" alt="" />';
+                    $html .= '</a>';
+                    $html .= '</li>';
                 }
             }
-            echo '</ul>';
+            $html .= '</ul>';
         }
+        echo $html;
     }
 
 }
