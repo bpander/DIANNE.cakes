@@ -41,7 +41,7 @@ class Image
     
     function __construct ($image_id) {
         $thumbnail = wp_get_attachment_image_src($image_id, 'thumbnail');
-        $full = wp_get_attachment_image_src($image_id, 'full');
+        $full = wp_get_attachment_image_src($image_id, 'large');
         $this->thumbnail = $thumbnail[0];
         $this->full = $full[0];
     }
