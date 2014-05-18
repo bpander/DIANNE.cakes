@@ -32,8 +32,8 @@ $posts = $post_controller->get_posts();
     <div style="height:336px; width:984px; margin:auto; background:url('splash.jpg') no-repeat; overflow:hidden">
         <div style="width:675px; margin:auto; position:relative">
             <img src="logo.png" alt="Cakes from Dianne" style="position:absolute; top:5px; left:-30px" />
-            <div style="text-align:right; padding-top:60px">
-                <img src="slogan.png" alt="For a time such as this. ESTHER 4:14" />
+            <div style="text-align: right; padding-top: 40px">
+                <img src="slogan_alt.png" alt="Whatever you do, whether you eat or drink, do it all for God's glory." />
             </div>
 
             <?php include 'templates/image-carousel.php'; ?>

@@ -1,4 +1,4 @@
-<div id="container" style="width:661px; height:111px; padding:7px; background:#fff; margin:60px 0 5px; position:relative">
+<div id="container" style="width:661px; height:111px; padding:7px; background:#fff; margin: 25px 0 5px; position:relative">
     <div class="container-inner">
         <div id="slide-container">
             <div class="h-spacer">
