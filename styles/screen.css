@@ -16,7 +16,22 @@ p{margin:0; padding:0; color:#fff}
     left: 0;
 }
 
-.slide-category{position:absolute; top:5px; cursor:pointer}
+
+.slider-navigation {
+    width: 675px;
+    height: 30px;
+    padding: 7px;
+    box-sizing: border-box;
+    background: url('/x.png') repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.slide-category {
+    cursor: pointer;
+}
+
 #slide-container{height:90px; width:100%; position:relative; overflow:hidden}
 .container-inner {
     position: relative;

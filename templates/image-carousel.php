@@ -27,7 +27,7 @@
     </div>
 </div>
 
-<div class="slider-navigation" style="width:675px; height:30px; background:url('x.png') repeat; position:relative">
+<div class="slider-navigation">
 
     <?php foreach ($posts as $post): ?>
         <p class="slide-category" data-scroll-to-category="<?= $post->post_name ?>"><?= strtolower($post->post_title) ?></p>

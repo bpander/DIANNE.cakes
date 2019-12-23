@@ -14,7 +14,7 @@ $posts = $post_controller->get_posts();
 
         <!-- Styles -->
         <link rel="stylesheet" href="styles/lightbox.css" type="text/css" media="screen" />
-        <link rel="stylesheet" href="styles/screen.css?version=1.0.2" type="text/css" media="screen" />
+        <link rel="stylesheet" href="styles/screen.css?version=1.0.3" type="text/css" media="screen" />
 
         <!-- Scripts -->
         <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
@@ -191,7 +191,6 @@ $posts = $post_controller->get_posts();
                     this.$navItems.each(function () {
                         var $this = $(this);
                         var scrollToCategory = $this.attr('data-' + DATA_ATTRIBUTE);
-                        $this.css({ left: Scroller.getCategoryScrollbarLeftPosition(scrollToCategory) + 7 });
                         $this.bind('click', function () {
                             Scroller.goTo(scrollToCategory);
                         });
