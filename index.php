@@ -14,7 +14,7 @@ $posts = $post_controller->get_posts();
 
         <!-- Styles -->
         <link rel="stylesheet" href="styles/lightbox.css" type="text/css" media="screen" />
-        <link rel="stylesheet" href="styles/screen.css?version=1.0.1" type="text/css" media="screen" />
+        <link rel="stylesheet" href="styles/screen.css?version=1.0.2" type="text/css" media="screen" />
 
         <!-- Scripts -->
         <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
