@@ -6,6 +6,33 @@ body{font:normal 15px Arial, Helvetica, sans-serif}
 .email-link:hover{text-decoration:underline}
 p{margin:0; padding:0; color:#fff}
 
+.notice {
+    background: #fff;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+.notice-inner {
+    max-width: 675px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.notice-inner-left {
+    margin-right: 6px;
+}
+
+.notice-inner-right {
+    font-size: 16px;
+}
+
+.notice a {
+    color: #c75486;
+}
+
+
 #scrollbar {
     background: #f5accc;
     cursor: pointer;
